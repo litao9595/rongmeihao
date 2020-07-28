@@ -1,0 +1,194 @@
+*{margin: 0px;padding: 0px;}
+li{list-style: none;}
+.main-box{
+  width: 980px;
+  margin: 0 auto;
+  /*padding-top: 20px;*/
+}
+.main-box .head-box{
+  height: 40px;
+  background: #f2f2f2;
+  border: solid 1px #e6e6e6;
+}
+.main-box .head-box span{
+  width: 80px;
+  height: 30px;
+  background-color: #f85959;
+  border-color: #f85959;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-align: center;
+  line-height: 30px;
+  box-sizing: border-box;
+  margin-left: 40px;
+  margin-top: 5px;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+}
+.main-box .table-head{
+  height: 30px;
+  background: #f2f2f2;
+  border: solid 1px #e6e6e6;
+  border-top: none;
+}
+.table-row{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  font-size: 14px;
+  color: #666;
+}
+.table-row>div{
+  padding: 0px 10px;
+  box-sizing: border-box;
+  line-height: 30px;
+  text-align: center;
+}
+.table-row .line-1{
+  width: 21%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:1;
+}
+.table-row .line-2{
+  width: 18%;
+  border-left: solid 1px #e6e6e6;
+}
+.table-row .line-3{
+  width: 25%;
+  border-left: solid 1px #e6e6e6;
+}
+.table-row .line-3 span{
+  padding: 0px 5px;
+}
+.table-body:hover{
+  cursor: pointer;
+  background: #f2f2f2;
+}
+.body-box{
+  border: solid 1px #e6e6e6;
+}
+.poup-box{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top:0px;
+  z-index: 10;
+  background: rgba(0,0,0,.5);
+}
+.poup-box .poup-body{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.file-box{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.file-box .left{
+  text-align: right;
+  float: left;
+  font-size: 14px;
+  color: #606266;
+  line-height: 50px;
+  padding: 0 12px 0 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80px;
+}
+.file-box .right{
+  width: 50px;
+  height: 50px;
+  border: dashed 1px #ccc;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.file-box .file-file{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top:0px;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+}
+.file-box .file-file .el-upload{
+  width: 50px;
+  height: 50px;
+}
+.btn-box{
+  text-align: right;
+}
+.btn-box .btn{
+  padding: 7px 10px;
+}
+.tishi{
+  font-size: 14px;
+  color: #f00;
+  margin-bottom: 20px;
+}
+.close-box{
+  text-align: right;
+  font-size: 20px;
+}
+.close-box i{
+  cursor: pointer;
+}
+.list-box{
+  padding: 20px 0px;
+}
+.list-box li{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+  min-width: 460px;
+}
+.list-box li .left span{margin-right: 5px;}
+.list-box li .right{
+  width: 200px;
+}
+.page-turning{
+  text-align: center;
+  margin-top: 20px;
+}
+.video-box{
+  width: 500px;
+  padding-bottom: 20px;
+}
+.video-box video{
+  display: block;
+  width: 100%;
+}
+.poup-box .loading-img{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  z-index: 20;
+  background: rgba(0,0,0,.5);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  overflow: hidden;
+}

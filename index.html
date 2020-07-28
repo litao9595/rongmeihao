@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link id="headerLogo" href="" rel="icon" type="image/x-ico">
+    <title id="headerTitle"></title>
+    <style>
+      html{
+        min-height:100%;
+      }
+      body{
+        min-height:100%;
+        background-color: #f8f8f8;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="app"></div>
+    <!-- built files will be auto injected -->
+  <script src="./static/js/jmessage-sdk-web.2.6.0.min.js"></script>
+  <script src="./static/js/md5.js"></script>
+  <!--<script src="node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>-->
+  <!--<script src="node_modules/@ckeditor/ckeditor5-vue/dist/ckeditor.js"></script>-->
+  <script>
+    var url = location.href; //获取url中"?"符后的字串
+    if(url.indexOf('scope=renshou')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/rs_logoico.png')
+      document.getElementById('headerTitle').innerText = '仁寿号'
+    }
+    else  if(url.indexOf('scope=nc')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/nc_logo_url.png')
+      document.getElementById('headerTitle').innerText = '南充号'
+    }
+    else  if(url.indexOf('scope=gp')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/gp-logo.png')
+      document.getElementById('headerTitle').innerText = '高坪号'
+    }
+    else  if(url.indexOf('scope=fs')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/fs-logo.png')
+      document.getElementById('headerTitle').innerText = '富顺号'
+    }
+    else  if(url.indexOf('scope=gl')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/gl-logo.png')
+      document.getElementById('headerTitle').innerText = '古蔺号'
+    }
+    else  if(url.indexOf('scope=lb')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/lb-logo.png')
+      document.getElementById('headerTitle').innerText = '雷波号'
+    }
+    else  if(url.indexOf('scope=rx')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/rx-logo.png')
+      document.getElementById('headerTitle').innerText = '荣县号'
+    }
+    else  if(url.indexOf('scope=xh')>-1){
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/xh-logo.png')
+      document.getElementById('headerTitle').innerText = ' 宣汉号'
+    }
+    else {
+      document.getElementById('headerLogo').setAttribute('href','./static/images/icon/logo.png')
+      document.getElementById('headerTitle').innerText = '融媒号'
+    }
+  </script>
+  </body>
+
+</html>
