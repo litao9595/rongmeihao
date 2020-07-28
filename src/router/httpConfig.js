@@ -1,9 +1,5 @@
-// const _hot = 'http://10.143.132.205:8090/ydmedia';//本地测试
-const _hot = 'http://mp.yd-data.com/ydmedia';//仁寿
-// const _hot = 'http://47.104.188.193/ydmedia';//ip地址
-// const microRoute = 'http://10.143.132.250:8091/wwebsite';//微网测试api
-const microRoute = 'http://mp.yd-data.com/wwebsite';//微网正式api
-// const microUrl ='http://10.143.132.205:8090';//微网跳转测试地址
+const _hot = '';//本地测试
+const microRoute = '';//微网测试api
 const microUrl ='http://mp.yd-data.com';//微网跳转正式地址
 const config = {
   getSideNav:_hot+'/pluginList',//获取左边菜单
@@ -114,7 +110,7 @@ const config = {
   rename:_hot+'/ydmedia/material/rename',//修改素材名
 };
 //课程管理
-const curriculumUrl='http://121.36.169.119:8086';
+const curriculumUrl='';
 const curriculum={
   curriculumList:curriculumUrl+'/news-train/a/coreCatalogueContent/findCatalogueContentByCatalogueContentEntity',//课程列表
   updateCheckStatusById:curriculumUrl+'/news-train/a/coreCatalogueContent/updateCheckStatusById',//操作栏 提交
