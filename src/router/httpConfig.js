@@ -75,26 +75,12 @@ const config = {
   uerTypeUrl:'/a/appUserType/getUserTypeList',//用户权限
   voteTemplateUrl:_hot+'/ydmedia/vote/template',//获取投票模板选择
   logOutUrl:'http://mp.yd-data.com/',//生产退出系统
-  // logOutUrl:'http://47.104.188.193/',
-  // logOutUrl:'http://10.143.132.205:8090/',//242退出系统
   jimInit:'/a/wxApi/getIMSignature',//
   JIMRegist:'/a/jiguang/registIm',//仁寿
   Jimparameter:{
     AppKey: '49f0bb42891ebba29a84f30f',
     MasterSecret:'74ea2857afe28514bff6de6f'
-  },//仁寿JIM appkey
-  // gulinJimparameter:{
-  //   AppKey: 'be4682d6ffe1851c4c7c03c1',
-  //   MasterSecret:'fb9352383619e54000437b7b'
-  // },//古蔺JIM appkey
-  // fushunJimparameter:{
-  //   AppKey: 'ad1dad3cd2fb7e2cab3391bf',
-  //   MasterSecret:'d7b1c1e22f930a74fa27768a'
-  // }//富顺JIM appkey
-  // xuanhanJimparameter:{
-  //   AppKey: '87f141d09563d34ad55ab3e0',
-  //   MasterSecret:'cba0c7a8b5266e12a7d9177a'
-  // }//富顺JIM appkey
+  },
   base64Url:'a/material/baseToPic',//base64图片转换
   textDocuments:_hot+'/ydmedia/content/upload',//文档导入
   platformWeixinGet:_hot+'/ydmedia/externalPlug/findList',//第三方微信查询
